@@ -1,0 +1,25 @@
+class Bank {
+    double rate;
+
+    Bank(double r) {
+        rate = r;
+    }
+
+    void displayRate() {
+        System.out.println("Rate of Interest: " + rate + "%");
+    }
+}
+
+class banktest {
+    public static void main(String[] args) {
+	Bank bank1 = new Bank(8.4);
+	Bank bank2 = new Bank(7.3);
+	Bank bank3 = new Bank(9.7);
+
+	bank1.displayRate();
+	bank2.displayRate();
+	bank3.displayRate(); {
+        bank.displayRate();
+        }
+    }
+}
